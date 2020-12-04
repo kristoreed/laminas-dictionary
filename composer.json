@@ -1,0 +1,24 @@
+{
+    "name": "kristoreed/dictionary",
+    "type": "library",
+    "description": "Laminas dictionary",
+    "keywords": [
+        "kristoreed", "laminas-dictionary"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Trzcinka",
+            "email": "krzysztof.trzcinka@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "kristoreed/laminas-db-manager": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kristoreed\\Laminas\\Dictionary\\": "src"
+        }
+    }
+}
