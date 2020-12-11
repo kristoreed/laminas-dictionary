@@ -13,7 +13,7 @@ use Laminas\Db\Sql\Expression;
  * @package Kristoreed\Laminas\Dictionary\Repository
  * @author Krzysztof Trzcinka <krzysztof.trzcinka@gmail.com>
  */
-abstract class Dictionary implements DictionaryInterface
+class Dictionary implements DictionaryInterface
 {
     /**
      * @var string
