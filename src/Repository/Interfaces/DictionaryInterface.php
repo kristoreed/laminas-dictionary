@@ -13,6 +13,13 @@ use Kristoreed\Laminas\DbManager\Query\Executor\Exceptions\ExecutorException;
 interface DictionaryInterface
 {
     /**
+     * @param string $tableName
+     *
+     * @return DictionaryInterface
+     */
+    public function setTableName(string $tableName): DictionaryInterface;
+
+    /**
      * @param int $elementId
      *
      * @return array
