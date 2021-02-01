@@ -40,6 +40,15 @@ class Dictionary implements DictionaryInterface
     /**
      * @inheritDoc
      */
+    public function setTableName(string $tableName): DictionaryInterface
+    {
+        $this->tableName = $tableName;
+        return $this;
+    }
+
+    /**
+     * @inheritDoc
+     */
     public function getElementById(int $elementId): array
     {
         $select = new Select();
